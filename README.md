@@ -1,6 +1,6 @@
 # spotify_music_player_screen
 <br />
-<img src="assets/images/sptfy_flutter_screen.jpg" width="240" />
+<img src="assets/sptfy_flutter_screen.jpg" width="240" />
 
 
 
