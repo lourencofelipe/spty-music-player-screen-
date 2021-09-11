@@ -16,13 +16,13 @@ class _PlayerPageState extends State<PlayerPage> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             Padding(
-              padding: EdgeInsets.only(top: 80),
+              padding: EdgeInsets.only(top: 40),
               child: Center(
                 child: Material(
                   elevation: 10,
                   child: SizedBox(
-                    width: 260,
-                    height: 260,
+                    width: 250,
+                    height: 250,
                     child: Image.network(
                       "https://images-na.ssl-images-amazon.com/images/I/81IoZlwP9AL._SL1500_.jpg",
                       fit: BoxFit.fill,
@@ -32,15 +32,15 @@ class _PlayerPageState extends State<PlayerPage> {
               ),
             ),
             Padding(
-              padding: EdgeInsets.only(bottom: 50),
+              padding: EdgeInsets.only(bottom: 40),
             ),
             Text(
               "Empire Of The Clouds",
-              style: TextStyle(color: Colors.white, fontSize: 30),
+              style: TextStyle(color: Colors.white, fontSize: 27),
             ),
             Text("Iron Maiden",
-                style: TextStyle(color: Colors.white, fontSize: 25)),
-            Padding(padding: EdgeInsets.only(bottom: 10)),
+                style: TextStyle(color: Colors.white, fontSize: 23)),
+            Padding(padding: EdgeInsets.only(bottom: 8)),
             Divider(
               color: Colors.white,
             ),
@@ -58,7 +58,7 @@ class _PlayerPageState extends State<PlayerPage> {
               ],
             ),
             Padding(
-              padding: EdgeInsets.only(bottom: 15),
+              padding: EdgeInsets.only(bottom: 10),
             ),
             Row(
               mainAxisAlignment:
