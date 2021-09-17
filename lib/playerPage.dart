@@ -48,7 +48,7 @@ class _PlayerPageState extends State<PlayerPage> {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: <Widget>[
                 Text(
-                  "00:35",
+                  "00:00",
                   style: TextStyle(color: Colors.white, fontSize: 20),
                 ),
                 Text(
